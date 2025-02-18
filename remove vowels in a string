@@ -1,0 +1,9 @@
+a=input("Enter name:").lower()
+t= "aeiou"
+res=" "
+for i in a:
+    if i not in t:
+        res+=i
+print(res)
+
+        
